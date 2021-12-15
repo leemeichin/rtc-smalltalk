@@ -1,0 +1,15 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gravity",
+		"wind" ],
+	"name" : "RTCEnvironment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

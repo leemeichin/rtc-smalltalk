@@ -1,0 +1,14 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTCTicker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

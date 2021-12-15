@@ -1,0 +1,16 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LJM 12/15/2021 13:38",
+	"instvars" : [
+		"rows",
+		"columns",
+		"data" ],
+	"name" : "RTCMatrix",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

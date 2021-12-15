@@ -1,0 +1,17 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LJM 12/13/2021 10:23",
+	"instvars" : [
+		"x",
+		"y",
+		"z",
+		"w" ],
+	"name" : "RTCTuple",
+	"pools" : [
+		 ],
+	"super" : "Magnitude",
+	"type" : "normal" }

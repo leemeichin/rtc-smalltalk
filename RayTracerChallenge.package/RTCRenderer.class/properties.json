@@ -1,0 +1,15 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form",
+		"canvas" ],
+	"name" : "RTCRenderer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

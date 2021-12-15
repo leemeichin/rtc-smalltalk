@@ -1,0 +1,1 @@
+Extensions to Matrix to allow for other transformations and calculations.

@@ -1,0 +1,14 @@
+{
+	"category" : "RayTracerChallenge-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTCRendererTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

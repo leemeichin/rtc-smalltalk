@@ -1,0 +1,15 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"velocity" ],
+	"name" : "RTCProjectile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

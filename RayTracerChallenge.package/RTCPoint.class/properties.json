@@ -1,0 +1,14 @@
+{
+	"category" : "RayTracerChallenge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RTCPoint",
+	"pools" : [
+		 ],
+	"super" : "RTCTuple",
+	"type" : "normal" }

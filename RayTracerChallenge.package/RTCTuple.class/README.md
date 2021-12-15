@@ -1,0 +1,1 @@
+Represents a three-dimensional point or a vector in space.
