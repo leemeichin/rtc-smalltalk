@@ -8,5 +8,7 @@
 		"testMatrixAccessAtPoint" : "LJM 12/15/2021 15:23",
 		"testMultiply" : "LJM 12/15/2021 15:22",
 		"testMultiplyIdentity" : "LJM 12/15/2021 20:26",
+		"testSub3x3" : "LJM 12/16/2021 13:15",
+		"testSub4x4" : "LJM 12/16/2021 13:28",
 		"testTranspose" : "LJM 12/15/2021 20:21",
 		"testTransposeIdentity" : "LJM 12/15/2021 20:23" } }

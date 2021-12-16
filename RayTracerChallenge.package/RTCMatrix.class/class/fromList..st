@@ -11,6 +11,6 @@ fromList: aList
 		ifFalse: [ ^ self error: 'Number of columns must all be equal' ].
 	
 	matrix := self new.
-	matrix rows: numRows; columns: numCols; data: aList.
+	matrix rows: numRows; columns: numCols; data: (aList collect: #asArray).
 
 	^ matrix.
