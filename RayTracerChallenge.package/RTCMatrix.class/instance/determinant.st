@@ -1,13 +1,18 @@
 arithmetic
 determinant
-	| det |
+	"Answer with the determinant of the matrix."
+	| sign det |
 	
 	det := 0.
+	sign := 1.
 	
-	(self size = 2)
-		ifTrue: [ det := ((self at: 0@0) * (self at: 1@1)) - ((self at: 0@1) * (self at: 1@0))]
-		ifFalse: [ 0 to: (self size - 1) do: [ :col | 
-				det := det + ((self at: 0@col) * (self cofactor: 0@col)) ]].
+	(self size = 1) ifTrue: [ ^ self at: 0@0 ].
 	
+	(0 to: self size - 1) do: [ :n |
+		det := det + (sign * ((self at: 0@n) * (self sub: 0@n) determinant)).
+		sign :=  sign negated.
+		].
+
 	^ det.
+	
 	

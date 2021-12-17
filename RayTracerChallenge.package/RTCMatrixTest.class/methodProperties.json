@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testDeterminant2x2" : "LJM 12/15/2021 21:01",
-		"testDeterminant4x4" : "LJM 12/15/2021 21:03",
+		"testDeterminant4x4" : "LJM 12/17/2021 14:29",
 		"testIdentity" : "LJM 12/15/2021 17:32",
 		"testMatrixAccessAtPoint" : "LJM 12/15/2021 15:23",
 		"testMultiply" : "LJM 12/15/2021 15:22",
