@@ -8,7 +8,8 @@
 	"instvars" : [
 		"rows",
 		"columns",
-		"data" ],
+		"data",
+		"determinant" ],
 	"name" : "RTCMatrix",
 	"pools" : [
 		 ],

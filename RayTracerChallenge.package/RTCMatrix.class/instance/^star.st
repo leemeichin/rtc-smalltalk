@@ -3,7 +3,7 @@ arithmetic
 	"Answer with this matrix multiplied by the other matrix."	
 	| matrix |
 	
-	matrix := RTCMatrix zeroes: rows@columns.
+	matrix := self class zeroes: rows@columns.
 	
 	"Note that array indices start at 1 but matrices start at 0."
 	(0 to: rows - 1) do: [:rowNum |

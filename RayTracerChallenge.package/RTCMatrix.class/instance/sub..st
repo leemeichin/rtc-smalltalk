@@ -16,4 +16,4 @@ sub: point
 	list := (1 to: collection size by: rows - 1)
 		collect: [ :row | collection collect: #yourself from: row to: row + (rows - 1) - 1] .
 	
-	^RTCMatrix fromList: list.
+	^self class fromList: list.

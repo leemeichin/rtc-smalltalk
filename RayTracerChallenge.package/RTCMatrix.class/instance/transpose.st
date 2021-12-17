@@ -4,7 +4,7 @@ transpose
 	
 	| matrix |
 	
-	matrix := RTCMatrix zeroes: rows@columns.
+	matrix := self class zeroes: rows@columns.
 	
 	0 to: (rows - 1) do: [ :row |
 		0 to: (columns - 1) do: [:col |
