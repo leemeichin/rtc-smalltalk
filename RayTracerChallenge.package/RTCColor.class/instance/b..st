@@ -1,3 +1,3 @@
 accessing
-b: aB
-	z := aB.
+b: b
+	self at: 2@0 put: b.

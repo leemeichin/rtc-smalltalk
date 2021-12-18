@@ -13,9 +13,13 @@
 		"testIsNotInvertible" : "LJM 12/18/2021 12:47",
 		"testMatrixAccessAtPoint" : "LJM 12/18/2021 12:41",
 		"testMultiply" : "LJM 12/18/2021 12:46",
+		"testMultiplyByTuple" : "LJM 12/18/2021 13:56",
 		"testMultiplyIdentity" : "LJM 12/18/2021 12:46",
 		"testRowAt" : "LJM 12/18/2021 12:35",
 		"testSub3x3" : "LJM 12/18/2021 12:41",
 		"testSub4x4" : "LJM 12/18/2021 12:38",
+		"testTranslationMultiplyInverse" : "LJM 12/18/2021 13:35",
+		"testTranslationMultiplyPoint" : "LJM 12/18/2021 13:51",
+		"testTranslationMultiplyVector" : "LJM 12/18/2021 13:33",
 		"testTranspose" : "LJM 12/18/2021 12:37",
 		"testTransposeIdentity" : "LJM 12/15/2021 20:23" } }

@@ -2,17 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddPointToVector" : "LJM 12/13/2021 13:34",
-		"testAddVectorToVector" : "LJM 12/13/2021 13:35",
-		"testAsMatrix" : "LJM 12/18/2021 12:49",
-		"testAsPoint" : "LJM 12/13/2021 11:32",
-		"testAsVector" : "LJM 12/13/2021 11:32",
-		"testDivide" : "LJM 12/13/2021 15:27",
-		"testFrom" : "LJM 12/13/2021 12:08",
-		"testHash" : "LJM 12/13/2021 12:25",
-		"testMultiply" : "LJM 12/13/2021 15:25",
-		"testNegateVector" : "LJM 12/13/2021 13:49",
-		"testSubtractTwoPoints" : "LJM 12/13/2021 12:58",
-		"testSubtractVectorFromPoint" : "LJM 12/13/2021 13:13",
-		"testSubtractVectorFromVector" : "LJM 12/13/2021 13:28",
+		"testAddPointToVector" : "LJM 12/18/2021 14:46",
+		"testDivide" : "LJM 12/18/2021 14:45",
+		"testMultiply" : "LJM 12/18/2021 14:11",
+		"testSubtractTwoPoints" : "LJM 12/18/2021 14:42",
+		"testSubtractVectorFromPoint" : "LJM 12/18/2021 14:42",
+		"testSubtractVectorFromVector" : "LJM 12/18/2021 14:43",
 		"testXYZW" : "LJM 12/13/2021 12:11" } }

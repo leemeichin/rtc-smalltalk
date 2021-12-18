@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCrossProduct" : "LJM 12/13/2021 16:13",
-		"testDotProduct" : "LJM 12/13/2021 16:03",
-		"testLength" : "LJM 12/13/2021 15:41",
-		"testNormalize" : "LJM 12/13/2021 15:57" } }
+		"testAddVectorToVector" : "LJM 12/18/2021 14:25",
+		"testCrossProduct" : "LJM 12/18/2021 15:19",
+		"testDotProduct" : "LJM 12/18/2021 15:17",
+		"testMagnitude" : "LJM 12/18/2021 15:15",
+		"testNegateVector" : "LJM 12/18/2021 14:44",
+		"testNormalize" : "LJM 12/18/2021 15:24" } }

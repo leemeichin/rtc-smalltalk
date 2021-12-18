@@ -1,3 +1,3 @@
 accessing
 z
-	^ z
+	^self at: 2@0.

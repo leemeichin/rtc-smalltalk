@@ -1,3 +1,3 @@
 accessing
 r
-	^x.
+	^ self at: 0@0

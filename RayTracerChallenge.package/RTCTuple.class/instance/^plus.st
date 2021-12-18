@@ -1,9 +1,4 @@
 arithmetic
-+ aTuple
-	"Add aTuple on to this tuple, resulting in either another point or a vector"
-	^RTCTuple
-		x: x + aTuple x
-		y: y + aTuple y
-		z: z + aTuple z
-		w: w + aTuple w.
-	
++ other
+	"Add other tuple onto this tuple, creating a new tuple"
+	^self class fromList: (self data + other data).

@@ -1,3 +1,3 @@
 instance creation
 zero
-	^self new.
+	^self zeroes: 4@1.

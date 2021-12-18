@@ -1,3 +1,3 @@
 accessing
-g: aG
-	y := aG.
+g: g
+	self at: 1@0 put: g

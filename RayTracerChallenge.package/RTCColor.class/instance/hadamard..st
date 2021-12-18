@@ -1,7 +1,9 @@
 arithmetic
-hadamard: aColor
+hadamard: other
 	"Create a new color based on the hadamard product of this color and aColor"
-	^RTCColor new
-		r:  self r * aColor r
-		g: self g * aColor g
-		b: self b * aColor b.
+	^ self class fromList: {
+		self r * other r .
+		self g * other g .
+		self b * other b.
+		self a * other a .
+	}

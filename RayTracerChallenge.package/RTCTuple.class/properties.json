@@ -13,5 +13,5 @@
 	"name" : "RTCTuple",
 	"pools" : [
 		 ],
-	"super" : "Magnitude",
+	"super" : "RTCMatrix",
 	"type" : "normal" }

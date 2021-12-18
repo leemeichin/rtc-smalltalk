@@ -1,4 +1,4 @@
 arithmetic
-length
+magnitude
 	"Calculate the distance (or magnitude) represented by a vector"
-	^(x squared + y squared + z squared + w squared) sqrt
+	^ (self data * self data) sum sqrt.

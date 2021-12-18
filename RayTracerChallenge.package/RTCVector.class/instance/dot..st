@@ -1,4 +1,4 @@
 arithmetic
-dot: aVector
+dot: other
 	"Calculate the dot product of this vector and aVector"
-	^ (x * aVector x) + (y * aVector y) + (z * aVector z) 
+	^(self data * other data) sum

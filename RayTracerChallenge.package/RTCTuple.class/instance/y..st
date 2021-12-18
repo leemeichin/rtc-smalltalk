@@ -1,3 +1,3 @@
 accessing
-y: anObject
-	y := anObject
+y: value
+	self at: 1@0 put: value
