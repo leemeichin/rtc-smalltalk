@@ -3,10 +3,10 @@ arithmetic
 	"Answer with this matrix multiplied by the other matrix."	
 	| matrix  |
 	
+	"If the other matrix is a tuple, return a new tuple"
 	(other isKindOf: RTCTuple) ifTrue: [
-		^ (0 to: other rows - 1) collect: [ :row | ((self rowAt: row) * other data) sum ]
-		].
-	
+		^other class fromList: ((0 to: other rows - 1) collect: [ :row | ((self rowAt: row) * other data) sum])].
+
 	matrix := self class zeroes: rows@columns.
 	
 	"Note that array indices start at 1 but matrices start at 0."
