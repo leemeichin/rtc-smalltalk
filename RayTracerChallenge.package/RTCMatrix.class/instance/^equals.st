@@ -4,6 +4,6 @@ comparing
 
 	self == anObject
 		ifTrue: [ ^ true ].
-"	self class = anObject class
-		ifFalse: [ ^ false ]."
+	(self class inheritsFrom: RTCMatrix)
+		ifFalse: [ ^ false ].
 	^ self rows = anObject rows and: [ self columns = anObject columns and: [ self data = anObject data ] ]
