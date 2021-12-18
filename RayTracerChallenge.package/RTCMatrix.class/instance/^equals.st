@@ -1,9 +1,10 @@
 comparing
-= anObject
+= other
 	"Answer whether the receiver and anObject represent the same object."
 
-	self == anObject
+	self == other
 		ifTrue: [ ^ true ].
-	(self class inheritsFrom: RTCMatrix)
+	(other class inheritsFrom: RTCMatrix)
 		ifFalse: [ ^ false ].
-	^ self rows = anObject rows and: [ self columns = anObject columns and: [ self data = anObject data ] ]
+		
+	^ self rows = other rows and: [ self columns = other columns and: [ self hasEqualElements: other ]]
