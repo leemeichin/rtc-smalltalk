@@ -1,5 +1,4 @@
 accessing
-at: point put: value
-	"Insert value at point."
-
-	(data at: (point x + 1)) at: (point y + 1) put: value.	
+at: cell put: value
+	"Insert value at cell."
+	data at: (1 + (cell x * rows) + cell y) put: value.	

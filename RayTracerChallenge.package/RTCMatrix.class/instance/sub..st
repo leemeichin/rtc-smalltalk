@@ -1,9 +1,9 @@
 accessing
 sub: point
 	"Answers with a new matrix excluding the row and column represented by point."
-	| collection list |
+	| collection |
 	
-	collection := data concatenation asOrderedCollection.
+	collection := data asOrderedCollection.
 	
 	"Remove the rows and cols  from the matrix"
 	(1 + (point x * rows) to: (point x * rows) + rows),
@@ -13,7 +13,4 @@ sub: point
 		
 	collection removeAllSuchThat: #isNil.
 	
-	list := (1 to: collection size by: rows - 1)
-		collect: [ :row | collection collect: #yourself from: row to: row + (rows - 1) - 1] .
-	
-	^self class fromList: list.
+	^self class fromList: collection asArray withRows: rows -1 andColumns: columns - 1.
